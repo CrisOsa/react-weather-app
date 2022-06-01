@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-body {
+.body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,34 +14,12 @@ body {
   background-image: linear-gradient(315deg, #c2118d 0%, #ff503c 74%);
   font-size: 20px;
 }
-
-h1 {
-  text-transform: uppercase;
-  text-align: center;
-  padding: 10px;
-}
-
-.headings,
-.weather-info {
-    display: flex;
-    align-items: center;
-}
-
-.headings p,
-.weather p {
-    width: 33.3%;
-    text-align: center;
-}
-
 .headings {
+  display: flex;
+    align-items: center;
     height: 35%;
     text-transform: uppercase;
     font-weight: bold;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-}
-
-.weather {
-    height: 65%;
-    font-size: 26px;
 }
